@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+/* header section */
+header {
+  background-color: rgb(26, 29, 33);
+}
+
+
+/* nav section */
+nav {
+  height: 45px;
+  width: 70%;
+  margin: auto;
+  position: relative;
+
+}
+.git_logo {
+  height: 40px;
+  vertical-align: middle;
+  filter: invert();
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  line-height: 45px;
+
+}
+/* sezione da verificare poichè lo spazio tral'ultimo link e input è elastico ma i contenuti di #nav_left e #nav_right si sovrappongono */
+#nav_left {
+  position: absolute;
+  left: 0;
+}
+#nav_right {
+  position: absolute;
+  right: 0;
+}
+/* /sezione da verificare poichè lo spazio tral'ultimo link e input è elastico ma i contenuti di #nav_left e #nav_right si sovrappongono */
+/* /nav section */
+
+
+/* motto and form container tutto da rivedere l'affiancamento dei .container.motto e .container.form*/
+#motto_and_form_container {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  height: 540px;
+  margin-bottom: 40px;
+
+}
+.container.motto {
+  /* height: 500px; */
+  width: 450px;
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+
+
+}
+.container.motto h1{
+  font-size: 65px;
+  font-weight: 500;
+}
+.container.form {
+
+  width: 430px;
+  height: 500px;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+.container.form *{
+  margin: 10px 0;
+}
+.container.form input {
+  width: 100%;
+  height: 45px;
+}
+.container.form p {
+  font-size: 10px;
+}
+#submit_button {
+  height: 65px;
+  background-color: #28A745;
+  border-radius: 5px;
+  border: 0px;
+  margin: 30px 0;
+}
+/* motto and form container */
+
+/* /header section */
