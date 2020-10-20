@@ -1,8 +1,11 @@
+/* reset */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+/* /reset */
+
 body {
   font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 }
@@ -10,15 +13,24 @@ body {
 header {
   background-color: rgb(26, 29, 33);
 }
-
+/* utility class */
+.box {
+  width: 70%;
+  margin: auto;
+}
+.fl {
+  float: left;
+}
+.clear {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* /utility class */
 
 /* nav section */
 nav {
   height: 45px;
-  width: 70%;
-  margin: auto;
-  position: relative;
-
 }
 .git_logo {
   height: 40px;
@@ -33,13 +45,11 @@ nav a {
 
 }
 /* sezione da verificare poichè lo spazio tral'ultimo link e input è elastico ma i contenuti di #nav_left e #nav_right si sovrappongono */
-#nav_left {
-  position: absolute;
-  left: 0;
+#nav_left, #nav_right  {
+  width: 50%;
 }
 #nav_right {
-  position: absolute;
-  right: 0;
+  text-align: right;
 }
 /* /sezione da verificare poichè lo spazio tral'ultimo link e input è elastico ma i contenuti di #nav_left e #nav_right si sovrappongono */
 /* /nav section */
