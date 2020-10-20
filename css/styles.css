@@ -9,13 +9,14 @@
 body {
   font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 }
-/* header section */
-header {
-  background-color: rgb(26, 29, 33);
-}
+
 /* utility class */
 .box {
   width: 70%;
+  margin: auto;
+}
+.box_small {
+  width: 60%;
   margin: auto;
 }
 .fl {
@@ -26,7 +27,15 @@ header {
   display: table;
   clear: both;
 }
+.col_6 {
+  width: 50%;
+}
 /* /utility class */
+
+/* header section */
+header {
+  background-color: rgb(26, 29, 33);
+}
 
 /* nav section */
 nav {
@@ -42,7 +51,6 @@ nav a {
   text-decoration: none;
   margin: 0 10px;
   line-height: 45px;
-
 }
 #nav_left, #nav_right  {
   width: 50%;
@@ -54,25 +62,15 @@ nav a {
 
 
 /* motto and form container tutto da rivedere l'affiancamento dei .container.motto e .container.form*/
-#motto_and_form_container {
-  width: 50%;
-  margin: auto;
+#motto_and_form{
   position: relative;
   height: 540px;
   margin-bottom: 40px;
 
 }
 .container.motto {
-  /* height: 500px; */
-  width: 450px;
   color: white;
   font-size: 22px;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(0, -50%);
-
-
 }
 .container.motto h1{
   font-size: 65px;
@@ -80,10 +78,7 @@ nav a {
 }
 .container.form {
 
-  width: 430px;
   height: 500px;
-  position: absolute;
-  right: 0;
   background-color: white;
   border-radius: 5px;
   padding: 20px;
