@@ -44,14 +44,12 @@ nav a {
   line-height: 45px;
 
 }
-/* sezione da verificare poichè lo spazio tral'ultimo link e input è elastico ma i contenuti di #nav_left e #nav_right si sovrappongono */
 #nav_left, #nav_right  {
   width: 50%;
 }
 #nav_right {
   text-align: right;
 }
-/* /sezione da verificare poichè lo spazio tral'ultimo link e input è elastico ma i contenuti di #nav_left e #nav_right si sovrappongono */
 /* /nav section */
 
 
